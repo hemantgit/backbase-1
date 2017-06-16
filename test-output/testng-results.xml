@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Computer CRUD Test Suit" duration-ms="169913" started-at="2017-06-16T04:03:55Z" finished-at="2017-06-16T04:06:45Z">
+    <groups>
+    </groups>
+    <test name="Create Computer Test" duration-ms="55225" started-at="2017-06-16T04:03:55Z" finished-at="2017-06-16T04:04:51Z">
+      <class name="backbase.CreateTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:backbase.CreateTest@42d80b78]" name="beforeClass" is-config="true" duration-ms="4248" started-at="2017-06-16T01:03:55Z" finished-at="2017-06-16T01:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="createComputerTest()[pri:0, instance:backbase.CreateTest@42d80b78]" name="createComputerTest" duration-ms="34126" started-at="2017-06-16T01:04:00Z" finished-at="2017-06-16T01:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComputerTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:backbase.CreateTest@42d80b78]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-06-16T01:04:34Z" finished-at="2017-06-16T01:04:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createComputerTest status=SUCCESS method=CreateTest.createComputerTest()[pri:0, instance:backbase.CreateTest@42d80b78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:backbase.CreateTest@42d80b78]" name="afterClass" is-config="true" duration-ms="16836" started-at="2017-06-16T01:04:34Z" finished-at="2017-06-16T01:04:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- backbase.CreateTest -->
+    </test> <!-- Create Computer Test -->
+    <test name="Update Computer Test" duration-ms="54089" started-at="2017-06-16T04:04:51Z" finished-at="2017-06-16T04:05:45Z">
+      <class name="backbase.UpdateTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:backbase.UpdateTest@146ba0ac]" name="beforeClass" is-config="true" duration-ms="3370" started-at="2017-06-16T01:04:51Z" finished-at="2017-06-16T01:04:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="updateComputerTest()[pri:0, instance:backbase.UpdateTest@146ba0ac]" name="updateComputerTest" duration-ms="34180" started-at="2017-06-16T01:04:54Z" finished-at="2017-06-16T01:05:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateComputerTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:backbase.UpdateTest@146ba0ac]" name="afterClass" is-config="true" duration-ms="16537" started-at="2017-06-16T01:05:28Z" finished-at="2017-06-16T01:05:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:backbase.UpdateTest@146ba0ac]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-06-16T01:05:28Z" finished-at="2017-06-16T01:05:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updateComputerTest status=SUCCESS method=UpdateTest.updateComputerTest()[pri:0, instance:backbase.UpdateTest@146ba0ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- backbase.UpdateTest -->
+    </test> <!-- Update Computer Test -->
+    <test name="Delete Computer Test" duration-ms="39275" started-at="2017-06-16T04:05:45Z" finished-at="2017-06-16T04:06:24Z">
+      <class name="backbase.DeleteTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:backbase.DeleteTest@57fffcd7]" name="beforeClass" is-config="true" duration-ms="3421" started-at="2017-06-16T01:05:45Z" finished-at="2017-06-16T01:05:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="deleteComputerTest()[pri:0, instance:backbase.DeleteTest@57fffcd7]" name="deleteComputerTest" duration-ms="34944" started-at="2017-06-16T01:05:48Z" finished-at="2017-06-16T01:06:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteComputerTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:backbase.DeleteTest@57fffcd7]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-06-16T01:06:23Z" finished-at="2017-06-16T01:06:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteComputerTest status=SUCCESS method=DeleteTest.deleteComputerTest()[pri:0, instance:backbase.DeleteTest@57fffcd7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:backbase.DeleteTest@57fffcd7]" name="afterClass" is-config="true" duration-ms="908" started-at="2017-06-16T01:06:23Z" finished-at="2017-06-16T01:06:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- backbase.DeleteTest -->
+    </test> <!-- Delete Computer Test -->
+    <test name="Read Computer Test" duration-ms="21260" started-at="2017-06-16T04:06:24Z" finished-at="2017-06-16T04:06:45Z">
+      <class name="backbase.ReadTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:backbase.ReadTest@271053e1]" name="beforeClass" is-config="true" duration-ms="3555" started-at="2017-06-16T01:06:24Z" finished-at="2017-06-16T01:06:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="readComputerTest()[pri:0, instance:backbase.ReadTest@271053e1]" name="readComputerTest" duration-ms="14639" started-at="2017-06-16T01:06:28Z" finished-at="2017-06-16T01:06:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readComputerTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:backbase.ReadTest@271053e1]" name="afterClass" is-config="true" duration-ms="3063" started-at="2017-06-16T01:06:42Z" finished-at="2017-06-16T01:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:backbase.ReadTest@271053e1]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-06-16T01:06:42Z" finished-at="2017-06-16T01:06:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=readComputerTest status=SUCCESS method=ReadTest.readComputerTest()[pri:0, instance:backbase.ReadTest@271053e1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- backbase.ReadTest -->
+    </test> <!-- Read Computer Test -->
+  </suite> <!-- Computer CRUD Test Suit -->
+</testng-results>

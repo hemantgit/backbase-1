@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Computer CRUD Test Suit" parallel="false">
+	<test name="Create Computer Test">
+		<classes>
+			<class name="backbase.CreateTest">
+				<methods>
+					<include name="createComputerTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Update Computer Test">
+		<classes>
+			<class name="backbase.UpdateTest">
+				<methods>
+					<include name="updateComputerTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Delete Computer Test">
+		<classes>
+			<class name="backbase.DeleteTest">
+				<methods>
+					<include name="deleteComputerTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Read Computer Test">
+		<classes>
+			<class name="backbase.ReadTest">
+				<methods>
+					<include name="readComputerTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+</suite> 
